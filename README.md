@@ -13,7 +13,7 @@ in `sagito-www`.
 | --- | --- | --- |
 | `/privacy` | Privacy notice | `docs/legal/privacy-public.html` in the app repo |
 | `/invite`, `/gift`, `/swap` | Where a shared code lands | `docs/legal/join-public.html` in the app repo |
-| `/`, `/faq`, `/vs`, `/about`, `/terms`, `/support` | Site pages | `docs/legal/*-public.html` in the app repo (copied here and to `sagito-www`) |
+| `/`, `/faq`, `/about`, `/terms`, `/support` | Site pages | `docs/legal/*-public.html` in the app repo (copied here and to `sagito-www`) |
 
 **For privacy and shared-code pages, edit the app repo, not this one.** Those pages are sourced from
 `niqluong-commits/sagito` and copied here; `docs/legal/PRIVACY.md` records the route,
