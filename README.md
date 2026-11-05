@@ -1,13 +1,19 @@
-# sagito-site
+# sagito-info
 
-The public pages for **Sagito**, served by GitHub Pages at **info.sagito.app**.
+The public pages for **Sagito**, served by GitHub Pages at **info.sagito.app**. This is the
+older address, kept alive because the app stores, every shipped build and links already
+sent to people point at it (`/privacy`, `/support`, `/invite`, `/gift`, `/swap`).
+
+**The main site is `www.sagito.app`**, served by `niqluong-commits/sagito-www`. The pages
+here are the same as there, and every page's canonical tag points at `www`. A copy edit
+has to be made in both repos until `info` becomes a per-path redirect. The blog lives only
+in `sagito-www`.
 
 | Path | Page | Source of truth |
 | --- | --- | --- |
 | `/privacy` | Privacy notice | `docs/legal/privacy-public.html` in the app repo |
 | `/invite`, `/gift`, `/swap` | Where a shared code lands | `docs/legal/join-public.html` in the app repo |
-| `/` | A short index | this repo only |
-| `/support` | App introduction and help | this repo only |
+| `/`, `/faq`, `/vs`, `/about`, `/terms`, `/support` | Site pages | `docs/legal/*-public.html` in the app repo (copied here and to `sagito-www`) |
 
 **For privacy and shared-code pages, edit the app repo, not this one.** Those pages are sourced from
 `niqluong-commits/sagito` and copied here; `docs/legal/PRIVACY.md` records the route,
